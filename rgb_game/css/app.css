@@ -6,6 +6,13 @@ h1	{
 	color: white;
 }
 
+#stripe {
+	background: white;
+	height: 30px;
+	text-align: center;
+	color: black;
+}
+
 .square {
 	width: 30%;
 	background: purple;
@@ -20,5 +27,4 @@ h1	{
 }
 
 span {
-	color: white;
 }
