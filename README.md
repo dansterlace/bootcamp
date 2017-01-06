@@ -1,0 +1,1 @@
+Keeping track of JS bootcamp coursework to be used as a refresher/code quality assurance. Node work will be in this repo as well.
