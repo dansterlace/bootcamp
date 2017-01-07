@@ -9,7 +9,7 @@ $("ul").on("click", "span", function(event){
 		$(this).remove();
 	});
 	event.stopPropagation();
-})
+});
 
 // Adding new todo
 $("input[type='text']").keypress(function(event){
@@ -20,4 +20,8 @@ $("input[type='text']").keypress(function(event){
 		//add new li
 		$("ul").append("<li><span><i class='fa fa-trash' aria-hidden='true'></i></span> " + todoText + "</li>");
 	}
-})
+});
+
+$(".fa-plus").click(function(){
+	$("input[type='text'").fadeToggle()
+});
